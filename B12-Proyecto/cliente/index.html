@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>WhatChat</title>
+        <meta charset="utf-8">
+        <link rel="Stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div id="contenedor">
+        <header>
+            <h1>WhatChat</h1>
+        </header>
+        <main>
+            <section id="login">
+                <p>Si eres usuario, introduce tus datos</p>
+                <input type="text" id="usuario" placeholder="usuario:">
+                <input type="password" id="contrasena" placeholder="contraseña:">
+                <button id="botonlogin">Entrar</button>
+                <div id="resultado"></div>
+                <hr>
+                <p>Si no eres usuario, puedes registrarte</p>
+                <input type="text" id="nuevousuario" placeholder="nombre de usuario">
+                <input type="text" id="nuevocontrasena" placeholder="nueva contraseña">
+                <input type="text" id="nuevonombre" placeholder="Indica tu nombre">
+                <input type="text" id="nuevoapellidos" placeholder="Indica tus apellidos">
+                <input type="text" id="nuevotelefono" placeholder="Indica tu telefono">
+                <input type="text" id="nuevoemail" placeholder="Indica tu email">
+                <button id="botonsignin">Registrarse</button> 
+            </section>
+            <section id="usuarios"></section>
+            <section id="conversacion">
+                <div id="quiensoy"><div id="atras">X</div>yo</div>
+                <div id="mensajes">
+                    <div class="yo">Hola</div>
+                    <div class="otros">Hola</div>
+                    <div class="yo">Hola</div>
+                    <div class="otros">Hola</div>
+                </div>
+                <div id="nuevomensaje">
+                    <input type="text" id="mensaje">
+                    <button id="enviamensaje">Envia</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            (c)2023 Jose Vicente Carratala
+        </footer>
+        </div>
+        <script src="codigo.js"></script>
+    </body>
+</html>
